@@ -34,7 +34,7 @@ export default function SpellIndex() {
   return (
     <>
       <h1 className='text-center bold display-1 mb-4'>Spells</h1>
-      <Container fluid>
+      <Container>
         <Row>
           <Col xs={6} md={4} lg={3}>
             <input id="spell-search" name="search" placeholder='Search...' value={filter} onChange={handleChange} />
