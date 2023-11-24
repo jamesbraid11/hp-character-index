@@ -47,7 +47,7 @@ export default function CharIndex() {
   return (
     <>
       <h1 className='text-center bold display-1 mb-4'>Characters</h1>
-      <Container fluid>
+      <Container>
         <Row>
           <Col xs={6} md={4} lg={3}>
             <div className="custom-select">

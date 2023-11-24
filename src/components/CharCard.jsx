@@ -2,9 +2,7 @@ import { useLoaderData, Link } from 'react-router-dom'
 
 export default function CharCard(){
   const char = useLoaderData()
-  console.log(char)
   const { image, name, house, wizard, patronus, wand } = char[0]
-  console.log(image, name, house, wizard, patronus, wand)
 
   return (
     <>
