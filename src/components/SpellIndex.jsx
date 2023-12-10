@@ -45,12 +45,7 @@ export default function SpellIndex() {
           filteredSpells.map(spell => {
             const { id, name, description } = spell
             return (
-              <Col className="box"
-                key={id} 
-                xs={6} 
-                md={4} 
-                lg={3}
-              >
+              <Col className="box" key={id} xs={6} md={4} lg={3}>
                 <div>
                   <h2>{name}</h2>
                   <p>{description}</p>
