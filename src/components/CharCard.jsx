@@ -8,7 +8,7 @@ import Hufflepuff from '../styles/images/Hufflepuff.png'
 export default function CharCard(){
   const char = useLoaderData()
   const { image, name, house, wizard, patronus, wand } = char[0]
-  const crests = [Gryffindor, Slytherin, Ravenclaw, Hufflepuff]
+  const crests = {Gryffindor, Slytherin, Ravenclaw, Hufflepuff}
 
   return (
     <>
