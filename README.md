@@ -12,8 +12,8 @@ The second project set by General Assembly during my training course was to buil
 
 ## Getting Started/Code Installation
 
-1. [GitHub Repo](https://github.com/jamesbraid11/hp-character-index) >>
-2. Download directory >>
+1. [GitHub Repo](https://github.com/jamesbraid11/hp-character-index)
+2. Download directory
 3. npm install axios, react-router-dom, react, react-bootstrap, sass
 4. npm run dev
 5. Open local host in local browser
